@@ -15,7 +15,7 @@ Instrumente folosite:
 
 -> introduceți aici specificațiile funcționale create în JIRA
 
-#1 Secțiunea de testare
+# 1 Secțiunea de testare
 
 ## 1.1 Planificarea testelor
 
