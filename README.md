@@ -1,133 +1,110 @@
-# Proiect final pentru cursul de testare manuală ITF
+The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application.
 
-Scopul proiectului final pentru cursul de testare manuală ITF este de a folosi toate cunoștințele acumulate de-a lungul cursului și de a le aplica în practică, folosind o aplicație live.
+Application under test: https://tryhackme.com/
 
-Aplicație în curs de testare: https://opensource-demo.orangehrmlive.com/
+Tool used: JIRA, Zephyr Squad.
 
-Documentația API: https://orangehrm.github.io/orangehrm-api-doc/
+<h2>Functional specifications:</h2>
 
-**Proiectul final va fi împărțit în 2 secțiuni: [Secțiunea de testare](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/blob/main/README.md#specifica%C8%9Bii-func%C8%9Bionale) și [Secțiunea SQL](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/blob/main/README.md#2-sec%C8%9Biunea-sql)).**
-
-Instrumente folosite: JIRA, Zephyr Squad, Postman, MySQL Workbench.
-
-# Specificații funcționale
-
-Povestea de mai jos a fost creată în JIRA și descrie specificațiile funcționale ale modulului Dependenți, pentru care se realizează proiectul final.
-
-![imagine](https://user-images.githubusercontent.com/99291143/163687093-6f1780d1-2808-4038-9ae2-65c22540a55c.png)
+The below Story was created in JIRA and describes the functional specifications of creating user account, for which the final project is performed upon.
+![1xc2c12123](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/360290ff-f63e-482e-a1ec-cb6477d94bb0)
 
 
-# 1 Secțiunea de testare
 
-## 1.1 Planificarea testelor
 
-Planul de testare este conceput pentru a descrie toate detaliile testării pentru modulul Dependenți din aplicația OrangeHRM.
+# 1 Testing Section
 
-Planul identifică elementele de testat, caracteristicile care trebuie testate, tipurile de testare care trebuie efectuate, personalul responsabil de testare, resursele și programul necesar pentru finalizarea testării și riscurile asociate cu planul.
+## 1.1 Test Planning
 
-#### 1.1.1 Rolurile atribuite proiectului și persoanele alocate
+The Test Plan is designed to describe all details of testing for creating user account for TryHackMe.com application.
 
-* Manager de proiect - Andrei Popescu
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan.
+
+#### 1.1.1 Roles assigned to the project and persons allocated
+
+* Project manager - Andrei Popescu
 * Product owner - Mădălina Ionescu
-* Dezvoltator software - Gabriela Tomescu
-* Inginer QA - Iulia Albu
+* Software developer - Gabriela Tomescu
+* QA Engineer - Stana Ioan Vlad
 
-#### 1.1.2 Criteriile de intrare definite
+#### 1.1.2 Entry criteria defined
 
-* sunt definite specificatiile functionale
-* sunt alocate rolurile necesare pentru proiect
-* au fost detectate și atenuate riscurile inițiale ale proiectului
+* functional specifications are defined
+* roles needed for the project are allocated
+* initial project risks were detected and mitigated
 
-#### 1.1.3 Criteriile de ieșire definite
+#### 1.1.3 Exit criteria defined
 
-* numărul de erori nerezolvate este nesemnificativ sau au prioritate scăzută
-* toate testele au fost executate
-* toate erorile rezolvate au fost re-testate și aprobate de echipa QA
-* termenul limită a fost atins
-* niciun risc major detectat nu a rămas neatenuat
-* testarea de regresie exploratorie trebuie efectuată pe modulul My Info, care include secțiunea Dependenți
+* number of unresolved bugs is insignificant or they have low priority
+* all tests have been executed
+* all resolved bugs have been re-tested and approved by the QA team
+* deadline was reached
+* no detected major risk remained un-mitigated
+* exploratory regression testing must be performed on the Add product to cart module
 
-#### 1.1.4 Domeniul testului
+#### 1.1.4 Test scope
 
-* __Teste în domeniu:__ Toate caracteristicile modulului Dependenți care au fost definite în specificațiile cerințelor software trebuie testate: testare funcțională, testare GUI și testare API
-* __Teste care nu intră în domeniul de aplicare:__ testare de performanță, integrări ale modulului de dependență cu alte module, testare de compatibilitate cu mai multe browsere
+* __Tests in scope:__ All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
+* __Tests not in scope:__ performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
 
-#### 1.1.5 Riscuri detectate
+#### 1.1.5 Risks detected
 
-* Riscuri ale proiectului: lipsa de experiență a echipei QA, termen scurt pentru încercarea Zephyr Squad, indisponibilitatea mediului de testare
-* Riscuri de produs: constrângerile de validare asupra câmpurilor ar putea fi prea restrictive pentru utilizatorul final
+* Project risks: lack of experience of the QA team, short deadline of Zephyr Squad trial, unavailability of test environment
+* Product risks: validation constraints on the fields might be too restrictive to the end-user
 
-#### 1.1.6 Evaluarea criteriilor de intrare
+#### 1.1.6 Evaluating entry criteria
 
-Criteriile de intrare definite în faza de planificare a testelor au fost atinse și procesul de testare poate continua.
+The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
 
-## 1.2 Monitorizare și control de testare
+## 1.2 Test Monitoring and Control
 
-Au fost generate diverse rapoarte periodice pentru a reflecta stadiul actual al procesului de testare, în cazul unor probleme majore s-ar putea lua măsuri de control.
-Următorul raport de stare a fost generat după ce 40% din cazurile de testare au fost executate, la 1 aprilie 2022:
-
-![imagine](https://user-images.githubusercontent.com/99291143/163689699-e0295daa-e5dc-4e87-a984-546d9351fbac.png)
+Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 100% of the test cases were executed, on 19th of January:
+![d1xe12](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/886efb21-4075-4807-9acb-ec95063a7904)
 
 
-## 1.3 Analiza testului
 
-Procesul de testare va fi executat pe baza cerințelor de mai sus pentru modulul Dependenți. Au fost găsite următoarele condiții de testare:
-  * Introduceți date numai pentru câmpurile obligatorii și verificați dacă persoana dependentă este creată/actualizată
-  * Introduceți datele pentru toate câmpurile disponibile și verificați dacă persoana dependentă este creată/actualizată
-  * Lăsați câmpurile obligatorii goale și verificați dacă persoana dependentă nu poate fi creată/actualizată
-  * Vizualizați detaliile dependente și verificați că sunt corecte
-  * Vedeți toate persoanele aflate în întreținere într-o listă
-  * Verificați toate constrângerile de validare pentru câmpuri
+## 1.3 Test Analysis
 
-## 1.4 Testare de proiectare
+The testing process will be executed based on the above requirements for the Create a user account. The following test conditions were found:
+  * Any new user who visit the website can create an account.
+  * User is able to create check password policy when making account
+  * Registred user can reset its password if forgoten.
 
-Cazurile de testare funcționale au fost create în Zephyr Squad. Pe baza analizei specificațiilor, tehnicile de proiectare a testelor utilizate pentru generarea cazurilor de testare
-sunt analiza valorii limită, partiționarea echivalenței și testarea cazurilor de utilizare.
+## 1.4 Test Design
 
-**Cazuri de testare:**
-
-![imagine](https://user-images.githubusercontent.com/99291143/163688901-26234e0a-abfa-4034-93bf-bca37ad2b50c.png)
+Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
+**Test Cases:**
+![1c21x](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/f281c0fb-9b28-45e9-adb4-c8c55f8b6ae0)
 
 
-Cazurile de testare cu pași pot fi vizualizate aici: [Dependents_test_cases.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_test_cases.pdf)
+## 1.5 Test Implementation
 
-Pentru API-ul Dependents, a fost generată următoarea listă de verificare: [API_test_checklist.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/API_test_checklist.csv)
+The following elements are needed to be ready before the test execution phase begins:
 
+* Testing environment is up and running: https://tryhackme.com/
+* Access to the testing environment is given: Username : Admin | Password : admin123
+* Cycle summary was created
+* Test cases were added to the cycle summary
 
-## 1.5 Implementarea testului
+## 1.6 Test Execution
 
-Următoarele elemente sunt necesare pentru a fi pregătite înainte de începerea fazei de execuție a testului:
+*Test cases are executed on the created test Cycle summary:
+![c1231d](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/c19bd5fe-83ee-471c-ae8c-25835afe2555)
 
-* Mediul de testare este activ și rulează: https://opensource-demo.orangehrmlive.com/
-* Accesul la mediul de testare este dat: Nume utilizator : Admin | Parola: admin123
-* Rezumatul ciclului a fost creat
-* Cazurile de testare au fost adăugate la rezumatul ciclului
-* A fost creată colecția Postman cu metodele API dependente
-* Jetonul de autorizare a fost creat pentru accesarea API-ului
+*Bugs have been created based on the failed tests.
+![1x82jssk](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/14aca4fb-10e6-44f9-af7d-f8161ca45752)
+![12112](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/df26e82b-d8a9-4717-9ce7-b81c92c5eab6)
 
-## 1.6 Execuția testului
+* Full regression testing is needed after the bugs are fixed.
 
-* Cazurile de testare sunt executate pe rezumatul ciclului de testare creat: [Dependents_cycle_summary_execution.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_cycle_summary_execution.pdf)
-* Bug-urile au fost create pe baza testelor eșuate. Rapoartele complete ale erorilor pot fi găsite aici: [Dependents_created_bugs.pdf](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Dependents_created_bugs.pdf)
-     * Formatul datei nu este zz/ll/aaaa
-     * „Data nașterii” viitoare poate fi selectată din calendar
-     * Sunt permise doar 50 de caractere pentru câmpul „Vă rugăm să specificați”.
-     * Numai 50 de caractere sunt permise pentru câmpul „Nume”.
-     * Relația „părinte” lipsește
-* Testele API sunt executate pe baza listei de verificare. Colecția folosită poate fi găsită aici: [Fișier JSON cu colecția de solicitări creată pentru API-ul Dependents](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/OrangeHRM%20API%20-% 20Dependents.postman_collection.json)
-* Testarea completă a regresiei este necesară după ce erorile sunt remediate
+## 1.7 Test Completion
 
-## 1.7 Finalizarea testului
+* As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
+* The traceability matrix was generated and can be found here:
+* ![matricea transabilitatii](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/5b3ac31f-a648-4614-a56a-8c12e43b4e92)
 
-* Deoarece criteriile de ieșire au fost îndeplinite și satisfăcute așa cum se menționează în secțiunea corespunzătoare, echipa de testare sugerează această funcție să „Pune live”
-* Matricea de trasabilitate a fost generată și poate fi găsită aici: [Traceability_matrix.csv](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/Traceability_matrix.xlsx)
-* A fost generată diagrama de execuție a testelor, raportul final arată că un număr de 5 teste au eșuat din total 23
-* Un număr de 23 de cazuri de testare au fost planificate pentru execuție și toate au fost executate
-* S-au găsit un număr de 5 erori în total, dintre care prioritatea este: 1 este mare, 4 sunt medii și 1 este scăzută
+*est execution chart was generated, the final report shows that a number 2 tests have failed of a total of 10
+* A number of 10 test cases were planned for execution and all of them were executed
+* A number of 2 total bugs were found, from which the priority is: 1 is high, 1 are medium
 
-![imagine](https://user-images.githubusercontent.com/99291143/163691281-5ccb211d-c101-40ea-bb64-1a4f65f8e1b1.png)
-
-
-# 2 Secțiunea SQL
-
-A creat o bază de date numită „orangehrm” și un tabel numit „dependenți” cu toate coloanele necesare pentru a salva datele conform specificațiilor. Au efectuat diferite interogări în interiorul fișierului sql: [dependents.sql](https://github.com/julai215/itf_final_project_example_and_portofolio/blob/main/Final%20Project/dependents.sql)
+![d1xe12](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/41998f1f-95fb-48ab-858b-8e3347f1b077)
