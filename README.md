@@ -5,11 +5,10 @@ Application under test: https://tryhackme.com/
 Tool used: JIRA, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
-
-The below Story was created in JIRA and describes the functional specifications of creating user account, for which the final project is performed upon.
+In Jira was created 10 stories describing certain specifications,below you can find story image from Jira, describing the functional specifications of creating user account.
 ![1xc2c12123](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/360290ff-f63e-482e-a1ec-cb6477d94bb0)
-
-
+Link for other 9 story:
+[Jira.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733665/Jira.pdf)
 
 
 # 1 Testing Section
