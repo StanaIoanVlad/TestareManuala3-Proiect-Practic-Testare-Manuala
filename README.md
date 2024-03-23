@@ -97,6 +97,15 @@ The following elements are needed to be ready before the test execution phase be
 
 *Test cases are executed on the created test Cycle summary:
 ![1271hds](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/d8177cd0-51fb-473f-a7ff-e1038d43a844)
+*Verify if user can create account on TryHackMe - functional testing
+*Check that the validcredential password will accept the user to logging into the website - positive testing
+*Check that the invalid credential password will stop the user from logging into the website - negative testing
+*Verify the login button - GUI Testing
+*Checking the Graphical User Interface on tryhackme - GUI Testing
+*Verify Warn of Weak Password Length - functional testing
+*Verify if Password Reset works - functional testing
+*Valid Credential Payment Subscription -positive testing
+*Verify Subscription zone - functional testing
 
 
 *Bugs have been created based on the failed tests:
@@ -110,6 +119,10 @@ The following elements are needed to be ready before the test execution phase be
 * As the Exit criteria were met and satisfied as mentioned in the appropriate section, this feature is suggested to ‘Go Live’ by the Testing team.
 * The traceability matrix was generated and can be found here:
 * ![matricea transabilitatii](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/5b3ac31f-a648-4614-a56a-8c12e43b4e92)
+* Bug SIV-11 Overlayed Text & Image was found at Test Case SIV-10 Checking the Graphical User Interface
+* Bug SIV-28 Login Button not visible on the homepage was found at Test Case SIV-8 Verify the login button
+
+
 
 *Test execution chart was generated, the final report shows that a number 2 tests have failed of a total of 10
 * A number of 10 test cases were planned for execution and all of them were executed
