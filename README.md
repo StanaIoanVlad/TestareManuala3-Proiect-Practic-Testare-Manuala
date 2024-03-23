@@ -6,7 +6,8 @@ Tool used: JIRA, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
 In Jira was created 10 stories describing certain specifications,below you can find story image from Jira, describing the functional specifications of creating user account.
-![1xc2c12123](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/360290ff-f63e-482e-a1ec-cb6477d94bb0)
+![1dsac1](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/9b041709-facc-47d5-8ae4-8c4d4adce002)
+
 Link for other 9 story:
 [Jira.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733665/Jira.pdf)
 
