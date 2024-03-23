@@ -58,8 +58,12 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 ## 1.2 Test Monitoring and Control
 
-Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 100% of the test cases were executed, on 19th of January:
-![d1xe12](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/886efb21-4075-4807-9acb-ec95063a7904)
+Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 100% of the test cases were executed, on 23th of March.
+
+The following report was generated using Test Metrics from Zephyr
+![1dsac1](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/577e3360-4e3b-415e-91e2-0baa64ce1f63)
+
+
 
 
 
