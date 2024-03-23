@@ -5,8 +5,10 @@ Application under test: https://tryhackme.com/
 Tool used: JIRA, Zephyr Squad.
 
 <h2>Functional specifications:</h2>
-In Jira was created 10 stories describing certain specifications,below you can find story image from Jira, describing the functional specifications of creating user account.
-![1dsac1](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/9b041709-facc-47d5-8ae4-8c4d4adce002)
+In Jira was created 10 stories describing certain specifications,below you can find story image from Jira, describing the functional specifications of creating user account:
+
+![1xc2c12123](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/a53b904d-4d06-43c5-bb64-8f0d6bf790d6)
+
 
 Link for other 9 story:
 [Jira.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733665/Jira.pdf)
@@ -58,7 +60,7 @@ The entry criterias defined in the Test Planning phase have been achieved and th
 
 ## 1.2 Test Monitoring and Control
 
-Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 100% of the test cases were executed, on 23th of March.
+Various periodic reports were generated to reflect the current status of the testing process, in case of major problems control measures could be taken. The following status report was generated after 100% of the test cases were executed, on 24th of March.
 
 The following report was generated using Test Metrics from Zephyr
 ![1dsac1](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/577e3360-4e3b-415e-91e2-0baa64ce1f63)
