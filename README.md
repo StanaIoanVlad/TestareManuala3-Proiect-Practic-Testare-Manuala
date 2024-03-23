@@ -80,7 +80,8 @@ The testing process will be executed based on the above requirements for the Cre
 
 Functional test cases were created in Zephyr Squad. Based on the analysis of the specifications, the test design techniques used for generating test cases are boundary value analysis, equivalence partitioning and use case testing.
 **Test Cases:**
-![1c21x](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/f281c0fb-9b28-45e9-adb4-c8c55f8b6ae0)
+[Test Case.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733772/Test.Case.pdf)
+
 
 
 ## 1.5 Test Implementation
@@ -95,11 +96,12 @@ The following elements are needed to be ready before the test execution phase be
 ## 1.6 Test Execution
 
 *Test cases are executed on the created test Cycle summary:
-![c1231d](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/c19bd5fe-83ee-471c-ae8c-25835afe2555)
+![1271hds](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/d8177cd0-51fb-473f-a7ff-e1038d43a844)
 
-*Bugs have been created based on the failed tests.
-![1x82jssk](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/14aca4fb-10e6-44f9-af7d-f8161ca45752)
-![12112](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/df26e82b-d8a9-4717-9ce7-b81c92c5eab6)
+
+*Bugs have been created based on the failed tests:
+[Bugs.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733781/Bugs.pdf)
+
 
 * Full regression testing is needed after the bugs are fixed.
 
