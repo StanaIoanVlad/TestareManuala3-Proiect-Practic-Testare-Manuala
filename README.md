@@ -10,7 +10,7 @@ In Jira was created 10 stories describing certain specifications,below you can f
 ![1xc2c12123](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/a53b904d-4d06-43c5-bb64-8f0d6bf790d6)
 
 
-Link for other 9 story:
+Link for the other 9 stories:
 [Jira.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733665/Jira.pdf)
 
 
@@ -42,12 +42,12 @@ The plan identifies the items to be tested, the features to be tested, the types
 * all resolved bugs have been re-tested and approved by the QA team
 * deadline was reached
 * no detected major risk remained un-mitigated
-* exploratory regression testing must be performed on the Add product to cart module
+  
 
 #### 1.1.4 Test scope
 
-* __Tests in scope:__ All the feature of Dependents module which were defined in software requirement specs need to be tested: functional testing, GUI testing and API testing
-* __Tests not in scope:__ performance testing, integrations of the dependents module with other modules, compatibility testing with multiple browsers
+* __Tests in scope:__ All the features of the Create User Account which were defined in the software requirement specs need to be tested: functional testing, GUI testing.
+* __Tests not in scope:__ compatibility testing with multiple browsers
 
 #### 1.1.5 Risks detected
 
@@ -56,7 +56,7 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 #### 1.1.6 Evaluating entry criteria
 
-The entry criterias defined in the Test Planning phase have been achieved and the test process can continue.
+The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
 ## 1.2 Test Monitoring and Control
 
@@ -71,10 +71,19 @@ The following report was generated using Test Metrics from Zephyr
 
 ## 1.3 Test Analysis
 
-The testing process will be executed based on the above requirements for the Create a user account. The following test conditions were found:
-  * Any new user who visit the website can create an account.
-  * User is able to create check password policy when making account
-  * Registred user can reset its password if forgoten.
+The testing process will be executed based on the above requirements for the Create a user account. 
+The following test conditions were found:
+  * Check that user should be able to create an account on the website Tryhackme by clicking Join now.
+  * Verify that user should have access to login function with the valid credentials.
+  * Verify that user should not have access to the website if the credentials are wrong.
+  * Verify if there is a login button on the main page.
+  * Checking that GUI elements are compliant and facilitate the user experience.
+  * Check Warn of Weak Password Length when user create a new account.
+  * Check that the password complexity will work when user creates a new account.
+  * Verify that user can reset its password if user forgot it.
+  * Check the access to the subscription zone while having a subscription.
+
+
 
 ## 1.4 Test Design
 
