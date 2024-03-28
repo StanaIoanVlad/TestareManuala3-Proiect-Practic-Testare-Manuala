@@ -73,16 +73,15 @@ The following report was generated using Test Metrics from Zephyr
 
 The testing process will be executed based on the above requirements for the Create a user account. 
 The following test conditions were found:
-  * Check that user should be able to create an account on the website Tryhackme by clicking Join now.
-  * Verify that user should have access to login function with the valid credentials.
-  * Verify that user should not have access to the website if the credentials are wrong.
-  * Verify if there is a login button on the main page.
-  * Checking that GUI elements are compliant and facilitate the user experience.
-  * Check Warn of Weak Password Length when user create a new account.
-  * Check that the password complexity will work when user creates a new account.
-  * Verify that user can reset its password if user forgot it.
-  * Check the access to the subscription zone while having a subscription.
-
+*Verify if user can create account on TryHackMe - functional testing
+*Check that the validcredential password will accept the user to logging into the website - positive testing
+*Check that the invalid credential password will stop the user from logging into the website - negative testing
+*Verify the login button - GUI Testing
+*Checking the Graphical User Interface on tryhackme - GUI Testing
+*Verify Warn of Weak Password Length - functional testing
+*Verify if Password Reset works - functional testing
+*Valid Credential Payment Subscription -positive testing
+*Verify Subscription zone - functional testing
 
 
 ## 1.4 Test Design
@@ -106,19 +105,13 @@ The following elements are needed to be ready before the test execution phase be
 
 *Test cases are executed on the created test Cycle summary:
 ![1271hds](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/d8177cd0-51fb-473f-a7ff-e1038d43a844)
-*Verify if user can create account on TryHackMe - functional testing
-*Check that the validcredential password will accept the user to logging into the website - positive testing
-*Check that the invalid credential password will stop the user from logging into the website - negative testing
-*Verify the login button - GUI Testing
-*Checking the Graphical User Interface on tryhackme - GUI Testing
-*Verify Warn of Weak Password Length - functional testing
-*Verify if Password Reset works - functional testing
-*Valid Credential Payment Subscription -positive testing
-*Verify Subscription zone - functional testing
+
 
 
 *Bugs have been created based on the failed tests:
-[Bugs.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733781/Bugs.pdf)
+[Bugs.pdf](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/files/14733781/Bugs.pdf
+![1x82jssk](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/de761d3b-45b1-45f0-8228-aff925a696a6)
+
 
 
 * Full regression testing is needed after the bugs are fixed.
@@ -130,11 +123,15 @@ The following elements are needed to be ready before the test execution phase be
 * ![matricea transabilitatii](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/5b3ac31f-a648-4614-a56a-8c12e43b4e92)
 * Bug SIV-11 Overlayed Text & Image was found at Test Case SIV-10 Checking the Graphical User Interface
 * Bug SIV-28 Login Button not visible on the homepage was found at Test Case SIV-8 Verify the login button
+* 
 
+## 1.8 Conclusions
 
-
-*Test execution chart was generated, the final report shows that a number 2 tests have failed of a total of 10
-* A number of 10 test cases were planned for execution and all of them were executed
-* A number of 2 total bugs were found, from which the priority is: 1 is high, 1 are medium
+During this testing, all 10 planned test cases were tested
+for execution.
+A total of 2 bugs were discovered from the 10 tests, whose
+priorities are: 1 – highest, 1 – moderate.
+The defects found were fixed and retested.
+Retesting and regression testing will be done within the new version of the application.
 
 ![d1xe12](https://github.com/StanaIoanVlad/TestareManuala3-Proiect-Practic-Testare-Manuala/assets/130207529/41998f1f-95fb-48ab-858b-8e3347f1b077)
